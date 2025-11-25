@@ -426,6 +426,25 @@ export default function ComponentName({ prop1, prop2 }: Props) {
 - Review API documentation in `API_TESTING_GUIDE.md`
 - Check Next.js documentation: [nextjs.org/docs](https://nextjs.org/docs)
 
+## 🚀 Deployment
+
+### Deploying to Vercel
+
+This application is configured for deployment on Vercel. For detailed deployment instructions including CORS setup, environment variables, and connecting to a Render backend, see the [Deployment Guide](../DEPLOYMENT_GUIDE.md).
+
+**Quick Steps:**
+1. Push your code to GitHub
+2. Import project in Vercel
+3. Set root directory to `client`
+4. Add environment variables (see [Environment Variables](../ENVIRONMENT_VARIABLES.md))
+5. Deploy!
+
+**Required Environment Variables:**
+- `NEXT_PUBLIC_API_URL` - Your backend API URL
+- `NEXT_PUBLIC_RAZORPAY_KEY_ID` - Razorpay public key
+
+For complete deployment setup, see [DEPLOYMENT_GUIDE.md](../DEPLOYMENT_GUIDE.md)
+
 ## 📄 License
 
 ISC
