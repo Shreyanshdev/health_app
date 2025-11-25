@@ -1,0 +1,4 @@
+# SEO crawling rules
+User-agent: *
+Allow: /
+
