@@ -352,7 +352,8 @@ import { ComponentProps } from '@/types';
 
 // Type definitions
 interface Props {
-  // props definition
+  // props definations. 
+  // 
 }
 
 // Component
